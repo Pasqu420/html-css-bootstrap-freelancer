@@ -8,7 +8,7 @@
 .contenuto{
   max-width: 1170px;
   margin: 0 auto;
-  text-align: center;
+  text-align: center
 }
 
 .debug{
@@ -21,16 +21,30 @@ li{
 
 /* regole header debug */
 header{
-  background-color: blue;
   min-height: 100px;
 }
 .header{
   min-height: 100px;
 }
+header li a{
+  display: block;
+  min-height: 100px;
+  background-color: grey;
+}
+
+.fix{
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
 
 .jumbotron{
   min-height: 700px;
   background-color: lightgreen;
+  padding-top: 100px;
 }
 .jumbo{
   min-height: 450px;
@@ -76,6 +90,28 @@ form input{
 .send{
   margin-top: 10%;
 }
-.send a{
+form div a{
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-color: grey;
+  margin-bottom: 10%;
+}
 
+/* regole debug footer */
+footer{
+  background-color: blue;
+  padding-top: 5%;
+}
+
+.footer{
+  min-height: 150px;
+}
+
+.copyright{
+  background-color: darkgrey;
+  text-align: center;
+  margin-top: 5%;
+  min-height: 50px;
+  line-height: 50px;
 }
