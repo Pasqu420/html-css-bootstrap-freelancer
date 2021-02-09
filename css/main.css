@@ -1,0 +1,81 @@
+/* debug */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenuto{
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.debug{
+  background-color: grey;
+}
+
+li{
+  list-style: none;
+}
+
+/* regole header debug */
+header{
+  background-color: blue;
+  min-height: 100px;
+}
+.header{
+  min-height: 100px;
+}
+
+.jumbotron{
+  min-height: 700px;
+  background-color: lightgreen;
+}
+.jumbo{
+  min-height: 450px;
+  margin-top: 20%;
+}
+
+/* regole debug section portfolio  */
+main section:first-child{
+  margin: 10% 0%;
+}
+.portfolio{
+  min-height: 250px;
+  margin: 5% 0%;
+  border-radius: 10px;
+}
+
+/* regole debug about */
+section:nth-child(even){
+  background-color: lightgreen;
+  min-height: 600px;
+}
+
+section:nth-child(2) .contenuto{
+  padding-top: 7%;
+}
+.about{
+  min-height: 250px;
+}
+.about-link{
+  margin-top: 5%;
+  min-height: 100px;
+}
+
+/* regole debug contact me */
+form{
+  margin-top: 10%;
+}
+form input{
+  width: 100%;
+  min-height: 50px;
+  border: none;
+}
+.send{
+  margin-top: 10%;
+}
+.send a{
+
+}
