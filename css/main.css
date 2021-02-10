@@ -9,9 +9,9 @@
   background-color: grey;
 }
 
-/* li{
+li{
   list-style: none;
-} */
+}
 
 body{
   font-size: 12px;
@@ -148,12 +148,9 @@ section:nth-child(2) .contenuto{
   font-size: 2rem;
 }
 
-.about{
-  min-height: 250px;
-}
 .link-about{
   margin: 7% 0 25% 0;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -161,6 +158,14 @@ section:nth-child(2) .contenuto{
   padding: 3% 5%;
   border: 1px solid #ffff;
   border-radius: 10px;
+  color:#ffff;
+  text-decoration: none;
+}
+
+.link-about a img{
+  width: 2.3rem;
+  vertical-align: sub;
+  margin-right: 5px;
 }
 
 /* regole debug contact me */
@@ -174,31 +179,59 @@ form input{
 }
 .send{
   margin-top: 10%;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
+.send a{
+  padding: 2% 3%;
+  background-color: #1abc9c;
+  color: #ffff;
+  border-radius: 10px;
+}
 
 form div a{
-  display: block;
-  width: 100px;
-  height: 50px;
-  background-color: grey;
+  display: inline-block;
   margin-bottom: 10%;
 }
 
 /* regole debug footer */
 footer{
-  background-color: blue;
+  background-color:#2c3e50;
   padding-top: 5%;
+  text-align: center;
+  font-size: 2rem;
+  color:#ffff;
 }
 
-.footer{
-  min-height: 150px;
+footer li{
+  float: left;
+  width: 25%;
+  font-size: 3rem;
+}
+
+footer li a{
+  color:#ffff;
+  border: 1px solid #ffff;
+  border-radius: 50%;
+  padding: 10%;
+}
+
+footer li:first-child a{
+  padding: 10% 15%;
+}
+
+ul{
+  text-align: center;
+}
+
+.style-a{
+  color:#1abc9c;
 }
 
 .copyright{
-  background-color: darkgrey;
+  font-size: 1.5rem;
+  background-color: #1a252f;
   text-align: center;
   margin-top: 5%;
   min-height: 50px;
