@@ -5,12 +5,6 @@
   box-sizing: border-box;
 }
 
-.contenuto{
-  max-width: 1170px;
-  margin: 0 auto;
-  text-align: center
-}
-
 .debug{
   background-color: grey;
 }
@@ -19,36 +13,76 @@ li{
   list-style: none;
 }
 
-/* regole header debug */
-header{
-  min-height: 100px;
-}
-.header{
-  min-height: 100px;
-}
-header li a{
-  display: block;
-  min-height: 100px;
-  background-color: grey;
+body{
+  font-size: 12px;
 }
 
-.fix{
-  background-color: blue;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 10;
+/* regole header */
+.navbar{
+  border: none;
 }
 
-.jumbotron{
+.navbar-brand{
+  height: auto;
+}
+
+.navbar-toggle{
+  margin-top: 40px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a{
+  color:white;
+  font-size: 2rem;
+  line-height: 80px;
+}
+
+.navbar-default .navbar-brand{
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.navbar-default{
+  background-color: #2c3e50;
+}
+
+.ms-jumbotron{
   min-height: 700px;
   background-color: lightgreen;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .jumbo{
-  min-height: 450px;
-  margin-top: 20%;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.jumbo img{
+  width: 260px;
+  height: auto;
+}
+
+.title{
+  font-size: 8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.line-icon{
+  height: 0.4rem;
+  background-color: white;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.line-icon:first-child{
+  margin-left: 95px;
+}
+
+.icon{
+  font-size: 4rem;
+  text-align: center;
+  color: white;
 }
 
 /* regole debug section portfolio  */
