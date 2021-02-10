@@ -1,4 +1,4 @@
-/* debug */
+/* generali */
 *{
   margin: 0;
   padding: 0;
@@ -9,9 +9,9 @@
   background-color: grey;
 }
 
-li{
+/* li{
   list-style: none;
-}
+} */
 
 body{
   font-size: 12px;
@@ -57,6 +57,8 @@ h3{
   min-height: 700px;
   background-color: lightgreen;
   padding-top: 50px;
+  color: #ffff;
+  text-align: center;
 }
 .jumbo{
   margin-top: 150px;
@@ -64,51 +66,101 @@ h3{
 }
 
 .jumbo img{
-  max-width: 300px;
+  max-width: 100%;
   margin-top: 10px;
-  height: auto;
 }
 
 .title{
-  max-width: 100%;
   font-size: 7rem;
-  font-weight: 700;
+  font-weight: 800;
+}
+
+.ms-jumbotron p{
+  font-size: 2.5rem;
 }
 
 
-/* regole debug section portfolio  */
+/* regole section portfolio  */
 main section:first-child{
   margin: 5% 0%;
 }
 
 main h2{
   font-size: 6.5rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 20px;
+  color: #2c3e50
 }
 
 #portfolio div img{
-  max-width: 350px;
+  max-width: 100%;
+}
+
+.plus-{
+  max-width: 90%;
   border-radius: 10px;
-  margin: 20px 0;
+  margin: 25px 0;
+  position: relative;
+}
+
+.plus-:hover .overlay{
+  display: block;
+}
+
+.overlay{
+position: absolute;
+top:0;
+right: 0;
+bottom: 0;
+left:0;
+background-color: rgba(26, 188, 156, 0.9);
+display:none;
+}
+
+.overlay span{
+  font-size: 10rem;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
 /* regole debug about */
 section:nth-child(even){
-  background-color: lightgreen;
-  min-height: 600px;
+  background-color: #1abc9c;
 }
 
 section:nth-child(2) .contenuto{
   padding-top: 7%;
 }
+
+#about{
+    color:#ffffff
+}
+
+#about h2{
+  padding-top:3%;
+  color: #ffff;
+}
+
+#about p{
+  font-size: 2rem;
+}
+
 .about{
   min-height: 250px;
 }
-.about-link{
-  margin-top: 5%;
-  min-height: 100px;
+.link-about{
+  margin: 7% 0 25% 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.link-about a{
+  padding: 3% 5%;
+  border: 1px solid #ffff;
+  border-radius: 10px;
 }
 
 /* regole debug contact me */
@@ -122,7 +174,11 @@ form input{
 }
 .send{
   margin-top: 10%;
+  font-size: 3rem;
+  font-weight: 600;
 }
+
+
 form div a{
   display: block;
   width: 100px;
