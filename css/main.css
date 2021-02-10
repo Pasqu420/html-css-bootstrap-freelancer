@@ -17,6 +17,12 @@ body{
   font-size: 12px;
 }
 
+h1,
+h2,
+h3{
+  text-align: center;
+}
+
 /* regole header */
 .navbar{
   border: none;
@@ -58,42 +64,35 @@ body{
 }
 
 .jumbo img{
-  width: 260px;
+  max-width: 300px;
+  margin-top: 10px;
   height: auto;
 }
 
 .title{
-  font-size: 8rem;
+  max-width: 100%;
+  font-size: 7rem;
   font-weight: 700;
-  text-align: center;
 }
 
-.line-icon{
-  height: 0.4rem;
-  background-color: white;
-  margin-top: 25px;
-  border-radius: 10px;
-}
-
-.line-icon:first-child{
-  margin-left: 95px;
-}
-
-.icon{
-  font-size: 4rem;
-  text-align: center;
-  color: white;
-}
 
 /* regole debug section portfolio  */
 main section:first-child{
-  margin: 10% 0%;
-}
-.portfolio{
-  min-height: 250px;
   margin: 5% 0%;
-  border-radius: 10px;
 }
+
+main h2{
+  font-size: 6.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#portfolio div img{
+  max-width: 350px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
 
 /* regole debug about */
 section:nth-child(even){
