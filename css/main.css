@@ -200,6 +200,11 @@ section:nth-child(even){
   color: #ffff;
 }
 
+.link-style:hover{
+  background-color: #ffff;
+  color:#2c3e50;
+}
+
 .link-about{
   margin: 7% 0 25% 0;
   font-size: 2rem;
