@@ -46,6 +46,10 @@ h3{
   background-color: #fff;
 }
 
+.center{
+  text-align: center;
+}
+
 /* regole header */
 .navbar{
   border: none;
@@ -105,7 +109,6 @@ h3{
 /* regole section portfolio  */
 main section:first-child{
   margin: 2% 0%;
-  text-align: center;
 }
 
 main h2{
@@ -128,9 +131,9 @@ main h2{
 }
 
 .plus-{
-  max-width: 90%;
+  max-width: 70%;
   border-radius: 10px;
-  margin: 25px 0;
+  margin: 25px auto;
   position: relative;
 }
 
@@ -157,10 +160,9 @@ display:none;
 }
 
 
-/* regole debug about */
+/* regole about */
 section:nth-child(even){
   background-color: #1abc9c;
-  text-align: center;
 }
 
 #about{
@@ -217,10 +219,7 @@ section:nth-child(even){
   margin-right: 5px;
 }
 
-/* regole debug contact me */
-.center{
-  text-align: center;
-}
+/* regole contact me */
 #contact-me .line-star{
   background-color: #2c3e50;
 }
